@@ -1,0 +1,11 @@
+D:\datum\net\ActionFunc\ActionFunc\ActionFunc\obj\Debug\ActionFunc.csprojResolveAssemblyReference.cache
+D:\datum\net\ActionFunc\ActionFunc\ActionFunc\bin\Debug\ActionFunc.exe
+D:\datum\net\ActionFunc\ActionFunc\ActionFunc\bin\Debug\ActionFunc.pdb
+D:\datum\net\ActionFunc\ActionFunc\ActionFunc\obj\Debug\ActionFunc.exe
+D:\datum\net\ActionFunc\ActionFunc\ActionFunc\obj\Debug\ActionFunc.pdb
+F:\datum\net\ActionFunc\ActionFunc\ActionFunc\bin\Debug\ActionFunc.exe
+F:\datum\net\ActionFunc\ActionFunc\ActionFunc\bin\Debug\ActionFunc.pdb
+F:\datum\net\ActionFunc\ActionFunc\ActionFunc\obj\Debug\ActionFunc.csprojResolveAssemblyReference.cache
+F:\datum\net\ActionFunc\ActionFunc\ActionFunc\obj\Debug\ActionFunc.csproj.CoreCompileInputs.cache
+F:\datum\net\ActionFunc\ActionFunc\ActionFunc\obj\Debug\ActionFunc.exe
+F:\datum\net\ActionFunc\ActionFunc\ActionFunc\obj\Debug\ActionFunc.pdb
