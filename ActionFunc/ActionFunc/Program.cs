@@ -15,13 +15,13 @@ namespace ActionFunc
         {
  
 
-            //func 简单Lambda用法
+            //1 func 简单Lambda用法
             Func<int> f1 = () => { 
                 return 10;
             };
             Console.WriteLine("f1"+f1());
 
-            //func 简单Lambda用法2 
+            //2 func 简单Lambda用法2 
             Func<string, int, string> f2 = (x, y) =>
             {
                 return x + y;
@@ -30,7 +30,7 @@ namespace ActionFunc
 
 
 
-            //action 简单Lambda用法
+            //3 action 简单Lambda用法
             Action<int, int> ac1 = (x, y) =>
             {
                 Console.WriteLine("{0}*{1}={2}",x,y, x * y);
@@ -38,7 +38,7 @@ namespace ActionFunc
             ac1(10, 99);
 
 
-            //action使用 
+            //4 action使用 
             Actiontmp<int, int>((t1, t2) => { Console.WriteLine("Actiontmp:{0}+{1}={2}", t1, t2, t1 + t2); }, 12, 15);
 
 
@@ -50,7 +50,7 @@ namespace ActionFunc
             //初始值
             List<int> list = new List<int>() { 10, 22, 2, 5, 89, 75 };
 
-            //func用法获取 实体
+            //5 func用法获取 实体
             try {
                 var entity = list.GetEntity(m => m > 100);
                 Console.WriteLine(entity);
@@ -59,7 +59,7 @@ namespace ActionFunc
                 var d = 222;
             }
 
-            //func用法获取 列表
+            //6 func用法获取 列表
             var nlist = list.GetSelect(m => m > 6);
             foreach (var entity in nlist)
             {
